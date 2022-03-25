@@ -1,0 +1,380 @@
+
+
+@media(max-width:600px) and (min-width: 450px) {
+    .hero-img {
+        width: 90%;
+    }
+
+ 
+}
+
+@media(max-width:600px) and (min-width:100px) {
+    html {
+        font-size: 43%;
+
+    }
+    .footer-grid { 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column: span 2;
+    }
+
+    .footer-company {
+        grid-row: 1;
+    }
+
+    .container-hero {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding-top: 10rem;
+
+
+    }
+
+    .hero-text h2 {
+        font-size: 5.2rem;
+        text-align: center;
+    }
+
+    .hero-text .hero-text-main {
+        text-align: center ;
+        font-size: 2rem;
+    }
+
+    /* .hero-img {
+        width: 90%;
+    } */
+
+    .hero-img-section {
+        margin-right: -4.4rem;
+        height: fit-content;
+    }
+
+    .hero-text {
+        margin-inline-start: 0rem;
+        margin-inline: 2rem ;
+    }
+
+    .btn {
+        font-size: 1.8rem;
+    }
+
+    .hero-btn {
+        display: flex;
+        justify-content: center;
+    }
+    .hero-customers {
+        justify-content: center;
+    }
+
+    .hero-customers .customers-message .customers-num {
+        font-size: 2.2rem
+    }
+    
+    .hero-customers .customers-message .customers-txt {
+        font-size: 1.8rem
+    }
+    
+    .testimonials {
+        flex-direction: column;
+    }
+
+    .testimonial-section {
+        width: 100%;
+    }
+    .img-gallery {
+        width: 100%;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin-left: 0 ;
+        margin-top: 5rem;
+    }
+
+
+    .meal-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .meal-card {
+        width: 75%;
+        justify-self: center;
+    }
+
+    .list-meals {
+        padding-top: 5rem;
+        width: 35%;
+        justify-self: center;
+        grid-column: 1/-1 ;
+    }
+
+    .values {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .pricing-card {
+        width: 38%;
+    }
+
+    .footer-contact_us .footer-brand {
+        grid-column: span 3;
+    }
+}
+
+
+@media(max-width: 450px) and (min-width:100px) {
+    .hero-img {
+        width: 97% ;
+    }
+
+    .how-img {
+        grid-row: 1 ;
+        margin: auto ;
+    }
+    .how-txt {
+        grid-row: 2 ;
+        margin: auto ;
+        
+    }
+
+    .how-num , .how-title , .how-desc {
+        text-align: center;
+    }
+
+
+    .how-desc{
+        font-size: 2.2rem;
+    }
+
+    .how-row-2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr 2fr ;
+    }
+
+    .how-row {
+        grid-template-rows: 3fr 2fr ;
+        grid-template-columns: 1fr;
+    }
+
+    .meal-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .meal-card {
+        width: 55%;
+        margin-top: 2rem;
+    }
+    .meal-card .meal-desc .type {
+        font-size: 1.4rem;
+    }
+
+    .meal-desc {
+        font-size: 2rem;
+    }
+
+    .tesimonials-heading {
+        margin-left: 0rem;
+        text-align: center;
+
+    }
+
+    .tesimonial-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tesimonial-grid .testimonial img {
+        width: 7rem;
+        height: 7rem ;
+        margin-inline: 40% ;
+    }
+
+    .tesimonial-grid .testimonial .comment {
+        text-align: center;
+        font-size: 1.8rem ;
+    }
+
+    .tesimonial-grid .testimonial .name { 
+        font-size: 1.4rem;
+    }
+    .img-gallery {
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+
+    .pricing-header p , .pricing-header h3 {
+        text-align:  center;
+
+        margin-left: -4rem;
+    }
+
+    .pricing-cards {
+        flex-direction: column;
+    }
+
+    .pricing-card {
+        width: 50%;
+        margin-bottom: 5rem;
+        align-self: center;
+    }
+    .value-section h4 {
+        font-size: 2rem;
+    }
+
+    .action-section {
+        flex-direction: column;
+    }
+
+    .action-section .form {
+        width: fit-content;
+
+        margin-inline: 5rem;
+    }
+
+    .action-section img {
+        display: none;
+    }
+
+    .footer-company {
+        grid-row: inherit ;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-col nav a , .footer-col p {
+        font-size: 1.8rem ;
+    }
+
+    .footer-col h4 {
+        font-size: 2.2rem ;
+    }
+
+
+}
+
+@media(max-width:48.75em) and (min-width:6.25em) {
+    html {
+        font-size: 34% ;
+    }
+
+    .hero-text h2 {
+        font-size: 4.2rem;
+    }
+    .navs {
+        display: none;
+    }
+    .nav-open {
+        display: block;
+        cursor: pointer;
+    }
+
+    .close .nav-close {
+        display: block;
+        cursor: pointer ;
+        position: absolute ;
+        transform: translate(-40px , 2px);
+    }
+
+    .open .nav-close {
+        display: none;
+    }
+    .mobile-nav {
+        display: block;
+    }
+
+    .hero-text-main {
+        font-size: 1.8rem;
+    }
+   .navs {
+       
+        /* position: absolute;
+        display: flex;
+        gap: 3.6rem;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 90% ;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255,255, 255, 0.91);
+        margin-left: -3rem ; */
+
+        background-color: rgba(255, 255, 255, 0.9);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(10px);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        transform: translateX(100%);
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s ease-in;
+    
+        /* Hide navigation */
+        /* Allows NO transitions at all */
+        /* display: none; */
+    
+        /* 1) Hide it visually */
+        opacity: 0;
+    
+        /* 2) Make it unaccessible to mouse and keyboard */
+        pointer-events: none;
+    
+        /* 3) Hide it from screen readers */
+        visibility: hidden;
+    }
+
+    .close .navs {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        transform: translateX(0);
+    }
+
+    /* .open .navs {
+        visibility: hidden;
+    } */
+
+
+    .navs a {
+        font-size: 3rem;
+
+    }
+
+    .tesimonial-grid {
+       
+        margin-inline: 10%;
+
+    }
+
+
+}
+
+@media(max-width:820px) and (min-width:780px) {
+    html {
+        font-size: 37%;
+    }
+    
+}
+
+
+@media(max-width:960px) and (min-width:820px) {
+    html {
+        font-size: 43%;
+    }
+}
+
+@media(max-width:1200px) and (min-width:960px) {
+    html {
+        font-size: 51% ;
+    }
+}
+
+
